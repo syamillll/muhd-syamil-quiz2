@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">muhd-syamil-quiz2</string>
+    <string name="a_b_c">A-B+C</string>
+    <string name="a_b_c2">A*B-C</string>
+    <string name="text1">A+B+C</string>
+    <string name="result">Result</string>
+    <string name="quiz_2">Quiz 2</string>
 </resources>

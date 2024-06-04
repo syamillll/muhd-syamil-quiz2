@@ -20,7 +20,7 @@
             android:layout_margin="16dp"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:text="Quiz 2"
+            android:text="@string/quiz_2"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="24sp" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="8dp"
-        android:text="Result"
+        android:text="@string/result"
         android:textSize="24sp" />
 
     <LinearLayout
@@ -46,21 +46,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/text1" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/a_b_c" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/a_b_c2" />
 
     </LinearLayout>
 
