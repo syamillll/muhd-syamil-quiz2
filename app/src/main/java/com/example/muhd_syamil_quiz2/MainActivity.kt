@@ -26,6 +26,30 @@ class MainActivity : AppCompatActivity() {
         button1 = findViewById(R.id.button1)
         button2 = findViewById(R.id.button2)
         button3 = findViewById(R.id.button3)
+
+        button1.setOnClickListener {
+            val a = textA.text.toString().toIntOrNull() ?: 0
+            val b = textB.text.toString().toIntOrNull() ?: 0
+            val c = textC.text.toString().toIntOrNull() ?: 0
+            val result = a + b + c
+            resultView.text = result.toString()
+        }
+
+        button2.setOnClickListener {
+            val a = textA.text.toString().toIntOrNull() ?: 0
+            val b = textB.text.toString().toIntOrNull() ?: 0
+            val c = textC.text.toString().toIntOrNull() ?: 0
+            val result = a - b + c
+            resultView.text = result.toString()
+        }
+
+        button3.setOnClickListener {
+            val a = textA.text.toString().toIntOrNull() ?: 0
+            val b = textB.text.toString().toIntOrNull() ?: 0
+            val c = textC.text.toString().toIntOrNull() ?: 0
+            val result = a * b - c
+            resultView.text = result.toString()
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
